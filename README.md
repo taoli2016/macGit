@@ -26,7 +26,7 @@ mac通过git上传代码至github
 ### 7.新建repository或者project
 ### 8.下载项目
 	```
-	git clone git@github.com:wenmobo/LearnGit.git
+	git clone https://github.com/taoli2016/macGit.git
 	```
 ### 9.提交代码
 	```
