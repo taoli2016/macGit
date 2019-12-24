@@ -1,34 +1,34 @@
 # macGit
 mac通过git上传代码至github
 
-###1.安装git 
+### 1.安装git 
 	```
 	brew install git	
 	```
-###2.设置username、useremail
+### 2.设置username、useremail
 	```
 	git config --global user.name "xx"
 	git config --global user.email "xx@163.com"
 	```
-###3.终端创建ssh key
+### 3.终端创建ssh key
 	```
 	ssh-keygen -t rsa -C "xx@163.com"
 	```
-###4.查看
+### 4.查看
 	```
 	cat .ssh/id_rsa.pub
 	```
-###5.github中setting ssh key
-###6.验证链接
+### 5.github中setting ssh key
+### 6.验证链接
 	```
 	ssh -T git@github.com 
 	```
-###7.新建repository或者project
-###8.下载项目
+### 7.新建repository或者project
+### 8.下载项目
 	```
 	git clone git@github.com:wenmobo/LearnGit.git
 	```
-###9.提交代码
+### 9.提交代码
 	```
         //切换到项目根目录下
 	//文件添加到仓库（.代表提交所有文件）
